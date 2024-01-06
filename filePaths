@@ -1,0 +1,25 @@
+/.config/autostart/
+/.config/cortile/
+/.config/plank/dock1/launchers/
+/.config/rofi/
+/.config/rofi/colors/
+/.config/rofi/launchers/type-3/
+/.config/rofi/scripts/
+/.config/ulauncher/
+/.config/ulauncher/user-themes/RocketLauncher/
+/.config/xfce4/
+/.config/xfce4/desktop/
+/.config/xfce4/panel/
+/.config/xfce4/terminal/
+/.config/xfce4/xfconf/xfce-perchannel-xml/
+/.config/ <-- docks.ini
+
+/etc/xdg/xdg-rocket/
+/usr/bin/
+/usr/share/
+/usr/share/applications/
+/usr/share/icons/
+/usr/share/lightdm/lightdm.conf.d/
+/usr/share/plank/themes/
+/usr/share/themes/rocket-switch/xfdashboard-1.0/
+/usr/share/xsessions/

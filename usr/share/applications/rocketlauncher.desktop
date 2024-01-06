@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rocket App Launcher
+Comment=Application launcher for Rocket Ui
+Exec=sh -c "pgrep -x ulauncher >/dev/null && env GDK_BACKEND=x11 ulauncher-toggle || env GDK_BACKEND=x11 ulauncher"
+Icon=RocketUiLauncher
+Path=
+Terminal=false
+StartupNotify=false
+NotShowIn=XFCE;Unity;KDE;GNOME;

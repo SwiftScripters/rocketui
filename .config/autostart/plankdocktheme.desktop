@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Plank Theme Setter
+Comment=Set the default theme for the plank doc.
+Exec=bash -c "cat /home/$USER/.config/plankthemesettings/docks.ini | dconf load /net/launchpad/plank/docks/"
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false

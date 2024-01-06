@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Rocket Session
+Comment=This is your Rocket Ui experience.
+Exec=rocket-session
+Icon=
+DesktopNames=Rocket:XFCE

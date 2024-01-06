@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rocket Application Grid
+Comment=
+Exec=bash -c "/home/$USER/.config/rofi/scripts/launcher_t3"
+Icon=RocketUIgrid
+Path=
+Terminal=false
+StartupNotify=false
+NotShowIn=XFCE;Unity;KDE;GNOME;

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Welcome
+Comment=EndeavourOS Welcome launcher
+Exec=sh /usr/share/endeavouros/scripts/welcome --once
+Icon=endeavouros-icon
+Path=
+Terminal=false
+StartupNotify=false
+NotShowIn=XFCE;Unity;KDE;GNOME;

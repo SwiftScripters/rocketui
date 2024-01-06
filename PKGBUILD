@@ -101,13 +101,13 @@ package() {
     mkdir -p "${pkgdir}${usrSharePath}/plank/themes/rocketplank"
 
     # Going in to the folder with files.
-    #cd "${pkgname}"
+    # cd "${pkgname}"
 
     # Installing readme.
-    install -Dm644 "${pkgname}/README.md" -t "${pkgdir}${usrSharePath}/doc/${pkgname}"
+    install -Dm644 "README.md" -t "${pkgdir}${usrSharePath}/doc/${pkgname}"
 
     # Installing license.
-    install -Dm644 "${pkgname}/LICENSE" -t "${pkgdir}${usrSharePath}/licenses/$pkgname/"
+    install -Dm644 "LICENSE" -t "${pkgdir}${usrSharePath}/licenses/$pkgname/"
 
     # Starting the installation.
     for i in autostart cortile plank rofi ulauncher xfce4; do

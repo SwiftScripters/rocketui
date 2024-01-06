@@ -101,7 +101,7 @@ package() {
     mkdir -p "${pkgdir}${usrSharePath}/plank/themes/rocketplank"
 
     # Going in to the folder with files.
-    # cd "${pkgname}"
+    cd "${pkgname}"
 
     # Installing readme.
     install -Dm644 "README.md" -t "${pkgdir}${usrSharePath}/doc/${pkgname}"
